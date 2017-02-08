@@ -1,0 +1,323 @@
+{
+ "pages": [
+  {
+   "name": "Soil Type",
+   "questions": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "sandy",
+       "text": "Sandy Loam Soil"
+      },
+      {
+       "value": "clay",
+       "text": "Clay Soil"
+      }
+     ],
+     "isRequired": true,
+     "name": "Which of the two types of soil are closest to what you have on your land? "
+    }
+   ]
+  },
+  {
+   "name": "Crop Rotation",
+   "questions": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "rotation1",
+       "text": "4 or 4+ crop rotation with forages"
+      },
+      {
+       "value": "rotation2",
+       "text": "4 or 4+ crop rotation NO forages"
+      },
+      {
+       "value": "rotation3",
+       "text": "3 years continuous forage (one or two crop rotations)"
+      },
+      {
+       "value": "rotation4",
+       "text": "3 years or less crop rotation with forages"
+      },
+      {
+       "value": "rotation5",
+       "text": "3 years or less crop rotation NO forages"
+      }
+     ],
+     "isRequired": true,
+     "name": "Crop Rotation (choose one)"
+    }
+   ],
+   "title": "Organic Farming Practices: For each type of weed management practice below, please indicate which ones most closely align with what you currently do on your farm"
+  },
+  {
+   "name": "Cover Crops",
+   "questions": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "cover1",
+       "text": "Short-term cover crops"
+      },
+      {
+       "value": "cover2",
+       "text": "20-30% of fields in long-term cover crops"
+      }
+     ],
+     "isRequired": true,
+     "name": "Cover Crops (choose one)"
+    }
+   ],
+   "title": "Organic Farming Practices: For each type of weed management practice below, please indicate which ones most closely align with what you currently do on your farm"
+  },
+  {
+   "name": "Cultivation",
+   "questions": [
+    {
+     "type": "checkbox",
+     "choices": [
+      {
+       "value": "cultivation1",
+       "text": "Flaming"
+      },
+      {
+       "value": "cultivation2",
+       "text": "Cultivates one or two times when weather allows"
+      },
+      {
+       "value": "cultivation3",
+       "text": "Cultivate at white thread stage"
+      },
+      {
+       "value": "cultivation4",
+       "text": "Cultivate/hand-pull 3 or more times during CWF period"
+      },
+      {
+       "value": "cultivation5",
+       "text": "Hand pull / bag invasive weeds before and during harvest"
+      },
+      {
+       "value": "cultivation6",
+       "text": "Post-harvest weed control / cultivation"
+      }
+     ],
+     "isRequired": true,
+     "name": "Cultivation (choose all that apply)"
+    }
+   ],
+   "title": "Organic Farming Practices: For each type of weed management practice below, please indicate which ones most closely align with what you currently do on your farm"
+  },
+  {
+   "name": "Tillage",
+   "questions": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "tillage1",
+       "text": "Inversion tillage once"
+      },
+      {
+       "value": "tillage2",
+       "text": "Inversion tillage/subsoiling every 3 years"
+      },
+      {
+       "value": "tillage3",
+       "text": "No till"
+      }
+     ],
+     "isRequired": true,
+     "name": "Tillage (choose one)"
+    }
+   ],
+   "title": "Organic Farming Practices: For each type of weed management practice below, please indicate which ones most closely align with what you currently do on your farm"
+  },
+  {
+   "name": "Nutrient Management",
+   "questions": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "nutrient1",
+       "text": "Spoon feed fertilizer"
+      },
+      {
+       "value": "nutrient2",
+       "text": "Broadcast feed fertilizer"
+      }
+     ],
+     "isRequired": true,
+     "name": "Nutrient Management (choose one)"
+    }
+   ],
+   "title": "Organic Farming Practices: For each type of weed management practice below, please indicate which ones most closely align with what you currently do on your farm"
+  },
+  {
+   "name": "Soil Health - OM",
+   "questions": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "percentOM1",
+       "text": "1 - 2%"
+      },
+      {
+       "value": "percentOM2",
+       "text": "2 - 3%"
+      },
+      {
+       "value": "percentOM3",
+       "text": "3 - 4%"
+      },
+      {
+       "value": "percentOM4",
+       "text": "> 4%"
+      },
+      {
+       "value": "percentOM4",
+       "text": "Not sure"
+      }
+     ],
+     "isRequired": true,
+     "name": "What is the average % of soil organic matter on your farm?"
+    }
+   ],
+   "title": "Organic Farming Outcomes: As a result of your current practices for farming row crops, please comment on your SOIL HEALTH"
+  },
+  {
+   "name": "Soil Health - Infiltration",
+   "questions": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "infiltration1",
+       "text": "Slow"
+      },
+      {
+       "value": "infiltration2",
+       "text": "Moderate"
+      },
+      {
+       "value": "infiltration3",
+       "text": "Rapid"
+      }
+     ],
+     "isRequired": true,
+     "name": "How well does water infiltrate and hold in your soil?"
+    }
+   ],
+   "title": "Organic Farming Outcomes: As a result of your current practices for farming row crops, please comment on your SOIL HEALTH"
+  },
+  {
+   "name": "Soil Health - Bio",
+   "questions": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "biological1",
+       "text": "Good"
+      },
+      {
+       "value": "biological2",
+       "text": "Moderate"
+      },
+      {
+       "value": "biological3",
+       "text": "Poor"
+      }
+     ],
+     "isRequired": true,
+     "name": "How would you characterize the biological health of your soil?"
+    }
+   ],
+   "title": "Organic Farming Outcomes: As a result of your current practices for farming row crops, please comment on your SOIL HEALTH"
+  },
+  {
+   "name": "Soil Health - weeds",
+   "questions": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "weeds1",
+       "text": "Low"
+      },
+      {
+       "value": "weeds2",
+       "text": "Moderate"
+      },
+      {
+       "value": "weeds3",
+       "text": "High"
+      }
+     ],
+     "isRequired": true,
+     "name": "How would you characterize the extent of the weed seedbank on your farm?"
+    }
+   ],
+   "title": "Organic Farming Outcomes: As a result of your current practices for farming row crops, please comment on your SOIL HEALTH"
+  },
+  {
+   "name": "Time Weeding",
+   "questions": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "time1",
+       "text": "5 - 10%"
+      },
+      {
+       "value": "time2",
+       "text": "11 - 20%"
+      },
+      {
+       "value": "time3",
+       "text": "21 - 30%"
+      },
+      {
+       "value": "time4",
+       "text": "> 30%"
+      }
+     ],
+     "isRequired": true,
+     "name": "During the growing season, what proportion of time do you spend weeding (out of all farm chores)?"
+    }
+   ],
+   "title": "Organic Farming Outcomes: As a result of your current practices for farming row crops, please comment on your TIME SPENT WEEDING"
+  },
+  {
+   "name": "Costs",
+   "questions": [
+    {
+     "type": "text",
+     "inputType": "number",
+     "isRequired": true,
+     "name": "How many acres of Row Crops do you farm?"
+    },
+    {
+     "type": "text",
+     "inputType": "number",
+     "isRequired": true,
+     "name": "What are your TOTAL annual mechanical weeding costs (excluding labor)?  Please enter a number without a $ in front"
+    },
+    {
+     "type": "text",
+     "commentText": " Please enter a number without a $ in front",
+     "inputType": "number",
+     "isRequired": true,
+     "name": "What are your annual mechanical weeding costs PER ACRE (excluding labor)?  Please enter a number without a $ in front"
+    }
+   ],
+   "title": "Organic Farming Outcomes: As a result of your current practices for farming row crops, please comment on your COSTS"
+  }
+ ]
+}

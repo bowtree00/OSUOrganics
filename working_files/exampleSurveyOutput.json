@@ -1,0 +1,19 @@
+{  
+   "Which of the two types of soil are closest to what you have on your land? ":"sandy",
+   "Crop Rotation (choose one)":"rotation2",
+   "Cover Crops (choose one)":"cover2",
+   "Cultivation (choose all that apply)":[  
+      "cultivation3",
+      "cultivation5"
+   ],
+   "Tillage (choose one)":"tillage2",
+   "Nutrient Management (choose one)":"nutrient2",
+   "What is the average % of soil organic matter on your farm?":"percentOM3",
+   "How well does water infiltrate and hold in your soil?":"infiltration2",
+   "How would you characterize the biological health of your soil?":"biological2",
+   "How would you characterize the extent of the weed seedbank on your farm?":"weeds1",
+   "During the growing season, what proportion of time do you spend weeding (out of all farm chores)?":"time3",
+   "How many acres of Row Crops do you farm?":12,
+   "What are your TOTAL annual mechanical weeding costs (excluding labor)? Please enter a number without a $ in front":100,
+   "What are your annual mechanical weeding costs PER ACRE (excluding labor)? Please enter a number without a $ in front":10
+}
